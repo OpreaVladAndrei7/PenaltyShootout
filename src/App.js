@@ -6,7 +6,7 @@ import './App.css';
 import footballClubs from './seeds';
 
 const App = () => {
-    const [clubs, setClubs] = useState(footballClubs);
+    const [clubs] = useState(footballClubs);
     const [searchField, setSearchField] = useState("");
     const [filteredClubs, setFilteredClubs]= useState(clubs);
     
